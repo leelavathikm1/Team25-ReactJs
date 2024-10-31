@@ -1,0 +1,9 @@
+.fail {
+  background-color: red;
+}
+.pass {
+  background-color: green;
+}
+#distinction {
+  background-color: blue;
+}
