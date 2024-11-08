@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+    <style>
+      thead {
+        background-color: red;
+        color: yellow;
+      }
+      body {
+        background-color: green;
+      }
+      tbody {
+        background-color: aqua;
+      }
+      .fail {
+        background-color: blueviolet;
+      }
+      #pass {
+        background-color: chartreuse;
+      }
+    </style>
+  </head>
+  <body>
+    <table border="1" style="border-collapse: collapse">
+      <thead>
+        <tr>
+          <th>Image</th>
+          <th>Name</th>
+          <th>Mob.</th>
+          <th>Place</th>
+          <th>Pincode</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">1</td>
+          <td>Bhavya</td>
+          <td>876789080</td>
+          <td>CTR</td>
+          <td>517022</td>
+        </tr>
+        <tr id="pass">
+          <td>2</td>
+          <td>Bheemesh</td>
+          <td>79879890</td>
+          <td>CTR</td>
+          <td>767787</td>
+        </tr>
+        <tr>
+          <td><img src="../nature.webp" alt="" width="30px" /></td>
+          <td colspan="2">Bhavya</td>
+          <td>876789080</td>
+          <td>CTR</td>
+          <td>517022</td>
+        </tr>
+        <tr id="pass">
+          <td>2</td>
+          <td>Bheemesh</td>
+          <td>79879890</td>
+          <td>CTR</td>
+          <td>767787</td>
+        </tr>
+        <tr class="fail">
+          <td>1</td>
+          <td>Bhavya</td>
+          <td>876789080</td>
+          <td>CTR</td>
+          <td>517022</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Bheemesh</td>
+          <td>79879890</td>
+          <td>CTR</td>
+          <td>767787</td>
+        </tr>
+        <tr class="fail">
+          <td>1</td>
+          <td>Bhavya</td>
+          <td>876789080</td>
+          <td>CTR</td>
+          <td>517022</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Bheemesh</td>
+          <td>79879890</td>
+          <td>CTR</td>
+          <td>767787</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
