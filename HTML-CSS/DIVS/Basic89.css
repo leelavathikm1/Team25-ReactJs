@@ -1,3 +1,6 @@
+.container {
+  background-image: url(./nature.webp);
+}
 .row3 {
   width: 800px;
   margin: auto;
