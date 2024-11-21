@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positions</title>
+    <style>
+      .main {
+        width: 700px;
+        border: 2px solid red;
+        height: 500px;
+      }
+      #staticDiv {
+        position: static;
+        border: 2px solid;
+        height: 55px;
+        /* left: 20px; */
+      }
+      #relativeDiv {
+        position: relative;
+        height: 70px;
+        left: 80px;
+        border: 2px solid;
+        top: 100px;
+      }
+      #fixedDiv {
+        position: fixed;
+        border: 2px solid;
+        height: 100px;
+        width: 100px;
+        top: 100px;
+        right: 200px;
+      }
+      #absoluteDiv {
+        position: absolute;
+        border: 2px solid;
+        width: 250px;
+        height: 200px;
+        bottom: 30px;
+      }
+      #stickyDiv {
+        position: sticky;
+        border: 2px solid;
+        height: 50px;
+        top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Position five different types of positions
+     1.Static
+     2.relative
+     3.Fixed
+     4.Absolute
+     5.Sticky -->
+
+    <div class="main">
+      <div id="staticDiv">Static</div>
+      <div id="relativeDiv">Relative</div>
+      <div id="fixedDiv">Fixed</div>
+      <div id="absoluteDiv">Absolute</div>
+      <div id="stickyDiv">Sticky</div>
+    </div>
+  </body>
+</html>
