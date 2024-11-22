@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* 1.descendent Selector ( space ) */
+      /* div p {
+        color: red;
+      } */
+      /* 2.Child Selector (>) */
+      div > p {
+        color: blue;
+      }
+      /* 3. Adjacent Selector ( + ) */
+      div + p {
+        background-color: red;
+      }
+      /* 4. General Sibling Selector( ~ ) */
+      div ~ p {
+        border: 2px solid;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Four Different Combinators
+     1.descendent Selector ( space )
+     2.Child Selector (>)
+     3. Adjacent Selector ( + )
+     4. General Sibling Selector( ~ ) -->
+
+    <div>
+      <p>1. First Paragraph</p>
+      <p>2. Second Paragraph</p>
+    </div>
+    <p>3. Third Paragraph After Div</p>
+    <p>4. Fourth Paragraph After Div</p>
+  </body>
+</html>
