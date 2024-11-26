@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .tooltip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black;
+      }
+
+      .tooltip .tooltipText {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        border-radius: 7px;
+        padding: 5px;
+        position: absolute;
+        bottom: 100px;
+        left: 50%;
+      }
+      .tooltip:hover .tooltipText {
+        visibility: visible;
+      }
+      .govt .abrivation {
+        visibility: hidden;
+      }
+      .govt:hover .abrivation {
+        visibility: visible;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Tool Tip</h2>
+    <p>Move the mouse over the below text</p>
+
+    <div class="tooltip">
+      Hover On Me
+      <span class="tooltipText"> ToolTipText </span>
+    </div>
+
+    <div class="govt">
+      GOVT
+      <span class="abrivation">Government</span>
+    </div>
+  </body>
+</html>
