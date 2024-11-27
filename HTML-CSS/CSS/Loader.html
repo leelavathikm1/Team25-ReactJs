@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: black;
+      }
+
+      .loader {
+        position: relative;
+        width: 75px;
+        height: 75px;
+        border: 5px solid white;
+        -webkit-animation: mid 1.5s linear infinite;
+        border-radius: 50%;
+      }
+      @-webkit-keyframes mid {
+        0% {
+          transform: rotateZ(10deg);
+          -webkit-transform: rotateZ(10deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="loader"></div>
+  </body>
+</html>

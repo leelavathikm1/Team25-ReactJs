@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .parent1 {
+        /* position: absolute; */
+        width: 400px;
+        background-color: blueviolet;
+        height: 200px;
+        text-align: center;
+        border: 2px solid;
+        z-index: -1;
+      }
+      /* .child1 {
+        height: 100px;
+        width: 300px;
+        margin: 20px;
+        z-index: -1;
+      } */
+
+      .parent2 {
+        position: absolute;
+        width: 300px;
+        background-color: red;
+        left: 0;
+        top: 0;
+        z-index: -1;
+      }
+
+      img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -2;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- The Z-Index property specifies  the stack order of an element
+     the z-Index only works on positioned elements -->
+
+    <!-- <div class="parent1">
+      <div class="child1">
+        <h3>Hello Iam Child-1 from Z-Index</h3>
+      </div>
+    </div>
+
+    <div class="parent2">
+      <div class="child2">
+        <h3>Hello Iam Child-2 from Z-Index</h3>
+      </div>
+    </div> -->
+
+    <h1>Iam From Z-Index Property</h1>
+
+    <img
+      src="./row-trees-with-words-spring-bottom_1147637-753.avif"
+      alt=""
+      width="300px"
+      height="200px"
+    />
+
+    <p></p>
+  </body>
+</html>
